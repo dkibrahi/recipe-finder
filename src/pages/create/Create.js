@@ -22,7 +22,6 @@ export default function Create() {
   // redirect user to home page once they submit
   useEffect(() => {
     if (data && !data.length) {
-      console.log("submit");
       history.push('/');
     }
   }, [data])
