@@ -43,6 +43,7 @@
     display: block;
     background: #e2e2e2;
     font-size: 0.9em;
+    width: 100px;
     text-align: center;
     width: 120px;
     padding: 8px;
@@ -50,9 +51,17 @@
     margin: 20px auto 0;
 }
 
+.delete {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    filter: invert(60%);
+}
+
 /* dark mode */
 .recipe-list .card.dark {
-    background-color: #555;
+    background: #555;
 }
 
 .recipe-list .card.dark p,
